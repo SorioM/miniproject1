@@ -72,7 +72,7 @@ a {
 
 #about {
   background-color: white;
-  margin-top: 150px;
+  margin-top: 10px;
 }
 
 .about .content {
@@ -296,10 +296,10 @@ img {
 /*----------------------------------------Contact Us-----------------------------*/
 
 #contact {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  margin-top: 150px;
-  height: 60vh;
+  padding-top: 10px;
+  margin-bottom: 30vh;
+  margin-top: 20px;
+  
 
 }
 
@@ -350,6 +350,7 @@ img {
 .services .service-box h3 {
   color: #444444;
   font-weight: 700;
+ 
 }
 
 
