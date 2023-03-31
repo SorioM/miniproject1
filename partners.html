@@ -1,376 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to SPA2GO</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to SPA2GO</title>
+    <!-- Favicons -->
+    <link href="assets/img/spalogo.png" rel="icon" />
+    <link href="assets/img/spalogo.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/spalogo.png" rel="icon">
-  <link href="assets/img/spalogo.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Vendor CSS Files-->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/remixicon/remixicon.css" rel="stylesheet" />
+  </head>
 
-  <!-- Vendor CSS Files-->
-  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/remixicon/remixicon.css" rel="stylesheet">
-
-</head>
-
-<body>
-  <!----------------------------Navigation Bar------------------------------------------------------------>
-  <nav class="navbar navbar-expand-lg navbar-fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="assets/img/spalogo.png" alt="Logo"
-          class="d-inline-block align-text-top"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link scrollto" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="about.html">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="partners.html">Spa brands</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="contact.html">Contact us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="faq.html">FAQ's</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="blog.html">Blog</a>
-          </li>
-
-        </ul>
-        <div>
-          <a href="booking.html">
-            <button class="btn btn-outline-success" type="submit">Book Now</button>
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <!--------------------------------------Brands------------------------------------------>
-
-
-  <section id="partners" class="partners">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-6 d-flex align-items-center justify-content-center">
-          <div class="input-group input-group-sm mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input"
-              aria-describedby="inputGroup-sizing-sm" placeholder="Location">
-          </div>
-        </div>
-
-        <div class="col-md-6 d-flex align-items-center justify-content-center">
-          <div class="input-group input-group-sm mb-3">
-            <input type="text" class="form-control" aria-label="Sizing example input"
-              aria-describedby="inputGroup-sizing-sm" placeholder="Search Spa brands">
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/k1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">K1 Wellness and Beauty Spa</h5>
-              <p class="card-text">The Grand Towers 790 Ocampo Street Malate Manila, 1004 Metro Manila Philippines</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/kenko.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">SM Kenko Spa - Jipang Group</h5>
-              <p class="card-text">The Grand Towers 790 Ocampo Street Malate Manila, 1004 Metro Manila Philippines.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/toccare.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Toccare Spa</h5>
-              <p class="card-text">7829 Makati Avenue 4/F, Antel Lifestyle City Makati, 1200 Metro Manila Philippines
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/chi.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Chi, The Spa</h5>
-              <p class="card-text">T4 & 5 Floor, Garden Wing, 1 Garden Way, Ortigas Center, Mandaluyong, 1650 Metro
-                Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/mbay.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">M-Bay Health Spa</h5>
-              <p class="card-text">778 Quirino Ave, Malate, Manila, 1000 Metro Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/onsen.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">I'M Onsen Spa</h5>
-              <p class="card-text">TI'M Hotel, UG Floor, Makati Avenue Corner, Kalayaan Ave, Makati, 1210 Metro Manila
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/breeze-spa.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Breeze Oriental Spa & Massage</h5>
-              <p class="card-text">G/F Skyland Plaza Tower B, Barangay San Antonio Village Malugay St, corner Talisay,
-                Makati, 1210 Metro Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/royal.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Royal Oriental Wellness</h5>
-              <p class="card-text">233 Nicanor Garcia, Makati, 1209 Metro Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/aramesh.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Aramesh Spa</h5>
-              <p class="card-text">Heart Tower 108, Valero, Makati, Metro Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/naya.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Naya Boutique Spa</h5>
-              <p class="card-text">128 Malakas St, Diliman, Quezon City, Metro Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/mandara.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Mandara Spa</h5>
-              <p class="card-text">McKinley Park Residences Unit 318, 31st Corner 3rd Avenue, Taguig, Metro Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/ginhawa.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Ginhawa Spa & Dining</h5>
-              <p class="card-text">High Pointe, 1184 Chino Roces Ave, San Antonio Village, Makati, 1203 Metro Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/infinity.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Infinity Spa Kapitolyo</h5>
-              <p class="card-text">165 Pasig Blvd, Pasig, 1603 Metro Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/gastro.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Urbanized Gastro Spa</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100">
-            <img src="assets/img/spa-brands/amara.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Amara Spa</h5>
-              <p class="card-text">19 Bayani Rd, Taguig, 1634 Metro Manila</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="page">
-      <nav aria-label="...">
-        <ul class="pagination justify-content-center ">
-          <li class="page-item disabled">
-            <a class="page-link">Previous</a>
-          </li>
-          <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">2</a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">Next</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-  </section>
-
-
-
-
-
-  <!-----------------------------Footer------------------------------------->
-
-  <section id="footer" class="footer">
-    <div class="footer-top">
+  <body>
+    <!----------------------------Navigation Bar------------------------------------------------------------>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top">
       <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-6 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/spalogo.png" alt="">
-              <span>SPA2GO</span>
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="assets/img/spalogo.png"
+            alt="Logo"
+            class="d-inline-block align-text-top"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link scrollto" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="partners.html">Spa brands</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="faq.html">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scrollto" href="blog.html">Blog</a>
+            </li>
+          </ul>
+          <div>
+            <a href="booking.html">
+              <button class="btn btn-outline-success" type="submit">
+                Book Now
+              </button>
             </a>
-            <p>RELAX, REJUVENATE & REFRESH</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--------------------------------------Brands------------------------------------------>
+
+    <section id="partners" class="partners">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <div class="input-group input-group-sm mb-3">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm"
+                placeholder="Location"
+              />
             </div>
           </div>
 
+          <div
+            class="col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <div class="input-group input-group-sm mb-3">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm"
+                placeholder="Search Spa brands"
+              />
+            </div>
+          </div>
+        </div>
 
-          <div class="col-lg-3 col-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/k1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">K1 Wellness and Beauty Spa</h5>
+                <p class="card-text">
+                  The Grand Towers 790 Ocampo Street Malate Manila, 1004 Metro
+                  Manila Philippines
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/kenko.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">SM Kenko Spa - Jipang Group</h5>
+                <p class="card-text">
+                  The Grand Towers 790 Ocampo Street Malate Manila, 1004 Metro
+                  Manila Philippines.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
           </div>
 
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
-            <p>
-              BGC 30th Street <br>
-              Taguig City, Metro Manila<br>
-              Philippines<br><br>
-              <strong>Phone:</strong> +63 9953 6733 87<br>
-              <strong>Email:</strong> spa2go@email.com<br>
-            </p>
-
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/toccare.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Toccare Spa</h5>
+                <p class="card-text">
+                  7829 Makati Avenue 4/F, Antel Lifestyle City Makati, 1200
+                  Metro Manila Philippines
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
           </div>
 
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/chi.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chi, The Spa</h5>
+                <p class="card-text">
+                  T4 & 5 Floor, Garden Wing, 1 Garden Way, Ortigas Center,
+                  Mandaluyong, 1650 Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
 
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/mbay.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">M-Bay Health Spa</h5>
+                <p class="card-text">
+                  778 Quirino Ave, Malate, Manila, 1000 Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
 
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/onsen.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">I'M Onsen Spa</h5>
+                <p class="card-text">
+                  TI'M Hotel, UG Floor, Makati Avenue Corner, Kalayaan Ave,
+                  Makati, 1210 Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/breeze-spa.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Breeze Oriental Spa & Massage</h5>
+                <p class="card-text">
+                  G/F Skyland Plaza Tower B, Barangay San Antonio Village
+                  Malugay St, corner Talisay, Makati, 1210 Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/royal.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Royal Oriental Wellness</h5>
+                <p class="card-text">
+                  233 Nicanor Garcia, Makati, 1209 Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/aramesh.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aramesh Spa</h5>
+                <p class="card-text">
+                  Heart Tower 108, Valero, Makati, Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/naya.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Naya Boutique Spa</h5>
+                <p class="card-text">
+                  128 Malakas St, Diliman, Quezon City, Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/mandara.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Mandara Spa</h5>
+                <p class="card-text">
+                  McKinley Park Residences Unit 318, 31st Corner 3rd Avenue,
+                  Taguig, Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/ginhawa.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ginhawa Spa & Dining</h5>
+                <p class="card-text">
+                  High Pointe, 1184 Chino Roces Ave, San Antonio Village,
+                  Makati, 1203 Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/infinity.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Infinity Spa Kapitolyo</h5>
+                <p class="card-text">
+                  165 Pasig Blvd, Pasig, 1603 Metro Manila
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/gastro.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Urbanized Gastro Spa</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/img/spa-brands/amara.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Amara Spa</h5>
+                <p class="card-text">19 Bayani Rd, Taguig, 1634 Metro Manila</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-  </section>
+      <div class="page">
+        <nav aria-label="...">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
 
+    <!-----------------------------Footer------------------------------------->
 
+    <section id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-12 footer-info">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/spalogo.png" alt="" />
+                <span>SPA2GO</span>
+              </a>
+              <p>RELAX, REJUVENATE & REFRESH</p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
 
+            <div class="col-lg-4 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="about.html">About us</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
 
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-</body>
+            <div
+              class="col-lg-4 col-md-12 footer-contact text-center text-md-start"
+            >
+              <h4>Contact Us</h4>
+              <p>
+                BGC 30th Street <br />
+                Taguig City, Metro Manila<br />
+                Philippines<br /><br />
+                <strong>Phone:</strong> +63 9953 6733 87<br />
+                <strong>Email:</strong> spa2go@email.com<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
 </html>
